@@ -45,6 +45,9 @@
     padding: 0 30px;
     max-width: 900px;
   }
+  .slick-slide {
+    margin-right: 20px;
+  }
   @media (max-width: 768px) {
 
   }

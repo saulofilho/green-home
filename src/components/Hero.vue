@@ -1,15 +1,13 @@
 <template>
   <div class="hero">
-    <div class="videowrapper">
-      <iframe 
-        src="https://player.vimeo.com/video/1205130?autoplay=1&loop=1&title=0&byline=0&portrait=0" 
-        style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-        frameborder="0" 
-        allow="autoplay; fullscreen" 
-        allowfullscreen
-      >
-      </iframe>
-    </div>
+    <video 
+      src="../assets/hero-video-bg.mp4" 
+      autoplay 
+      loop 
+      playsinline 
+      muted
+    >
+    </video>
     <div class="hero-wrapper container">
       <h2>Botanic Daily Data.</h2>
       <h1>Acompanhe o crescimento da sua plantação com dados reais.</h1>
@@ -28,24 +26,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9;
+  }
   .hero {
     width: 100%;
     height: 600px;
   }
-  .videowrapper {
-    float: none;
-    clear: both;
-    width: 100%;
-    
-    padding-bottom: 56.2%;
-    height: 0;
-    
-    /* Put the video in the background */
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
   .hero-wrapper {
     height: 100%;
     color: #a7ff83;
