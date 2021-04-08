@@ -1,7 +1,8 @@
 <template>
   <div class="signature">
       <div class="signature-wrapper container">
-        <h1>PayPall</h1>
+    <h1>PayPall</h1>
+    <div id="paypal-button-container-P-89258290VG352331EMBXVI4A"></div>
     </div>
   </div>
 </template>
