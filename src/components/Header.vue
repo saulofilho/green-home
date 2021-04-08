@@ -2,12 +2,11 @@
   <header>
     <div class="header-wrapper container">
       <div class="links-wrapper">
-        <a href="http://google.com" target="_blank" rel="noopener noreferrer">About</a>
-        <a href="http://google.com" target="_blank" rel="noopener noreferrer">Etc</a>
+        <a href="#About">About</a>
       </div>
-      <img src="../assets/bdd-logo.png" alt="this is the logo of company, guys">
+      <img src="../assets/bdd-logo-new-w.png" alt="this is the logo of company, guys">
       <div class="links-wrapper">
-        <a href="http://google.com" target="_blank" rel="noopener noreferrer">xxx</a>
+        <a href="#Features">Features</a>
       </div>
     </div>
   </header>
@@ -27,6 +26,7 @@ export default {
   header {
     width: 100%;
     position: fixed;
+    z-index: 999;
   }
   .header-wrapper {
     display: flex;
@@ -34,5 +34,10 @@ export default {
     align-items: center;
     flex-flow: row;
     padding-top: 2rem;
+  }
+  @media (max-width: 768px) {
+    .header-wrapper img {
+      width: 50%;
+    }
   }
 </style>

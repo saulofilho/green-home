@@ -1,5 +1,8 @@
 <template>
-  <div class="about">
+  <div class="about" id="About">
+    <p class="title container">
+      Harvesting data? What?!
+    </p>
     <div class="about-wrapper container">
       <div class="infos-wrapper">
         <p class="text">
@@ -10,6 +13,18 @@
       </div>
       <div class="ilustration-wrapper">
         <img src="../assets/teste.png" alt="">
+      </div>
+    </div>
+    <div class="about-wrapper container invert-column-mobile">
+      <div class="ilustration-wrapper">
+        <img src="../assets/teste.png" alt="">
+      </div>
+      <div class="infos-wrapper">
+        <p class="text">
+          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e 
+          pensar em soluções para problemas na sua plantação, com dados reais do 
+          seu projeto.
+        </p>
       </div>
     </div>
   </div>
@@ -24,13 +39,12 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .about {
     height: 100%;
-    width: 100vw;
+    width: 100%;
     background: #a7ff83;
-    padding: 2rem;
+    padding: 2rem 0;
   }
   .about-wrapper {
     display: flex;
@@ -54,9 +68,21 @@ export default {
     max-width: 100%;
     width: 300px;
   }
+  .title {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
   @media (max-width: 768px) {
     .about-wrapper {
       flex-flow: column;
+    }
+    .invert-column-mobile {
+      flex-flow: column-reverse;
     }
   }
 </style>

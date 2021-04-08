@@ -1,5 +1,5 @@
 <template>
-  <div class="features">
+  <div class="features" id="Features">
     <p class="title container">
       Digital Nature
     </p>
@@ -36,7 +36,6 @@ export default {
   import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
   export default {
-    name: 'MyComponent',
     components: { VueSlickCarousel },
     data() {
       return {
@@ -72,26 +71,26 @@ export default {
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .features {
+    height: 100%;
+    width: 100%;
+    background: #a7ff83;
+    padding: 2rem 0;
+  }
   .carousel-wrapper {
     margin: 0 auto;
-    max-width: 1140px;
-    padding: 20px 70px 0;
+    padding: 50px 0 0;
+    height: 100%;
+    width: 100%;
   }
   .carousel-box {
     background: #fff;
     cursor: pointer;
-    padding: 60px 30px 0;
-    width: auto;
-    height: 300px;
-    border: 2px solid #071a52;
-  }
-  .features {
+    padding: 30px;
+    width: 100%;
     height: 100%;
-    width: 100vw;
-    background: #a7ff83;
-    padding: 2rem;
+    border: 2px solid #071a52;
   }
   .features-wrapper {
     display: flex;
