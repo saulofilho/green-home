@@ -6,8 +6,8 @@
     <div class="about-wrapper container">
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e 
-          pensar em soluções para problemas na sua plantação, com dados reais do 
+          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
+          pensar em soluções para problemas na sua plantação, com dados reais do
           seu projeto.
         </p>
       </div>
@@ -21,8 +21,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e 
-          pensar em soluções para problemas na sua plantação, com dados reais do 
+          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
+          pensar em soluções para problemas na sua plantação, com dados reais do
           seu projeto.
         </p>
       </div>
@@ -56,7 +56,7 @@ export default {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
   }
-  .infos-wrapper, 
+  .infos-wrapper,
   .ilustration-wrapper {
     width: 100%;
     display: flex;
