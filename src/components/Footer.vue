@@ -8,18 +8,10 @@
     </div>
     <div class="footer-links-wrapper container">
       <div class="footer-col">
-        <a href="http://google.com" target="_blank" rel="noopener noreferrer"
-          >About</a
-        >
-        <a href="http://google.com" target="_blank" rel="noopener noreferrer"
-          >Features</a
-        >
-        <a href="http://google.com" target="_blank" rel="noopener noreferrer"
-          >How it works</a
-        >
-        <a href="http://google.com" target="_blank" rel="noopener noreferrer"
-          >Price</a
-        >
+        <a href="#About">About</a>
+        <a href="#Features">Features</a>
+        <a href="#HowItWorks">How it works</a>
+        <a href="#Signature">Price</a>
       </div>
       <div class="footer-col">
         <a href="http://google.com" target="_blank" rel="noopener noreferrer"
@@ -43,7 +35,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 footer {
   height: 100%;
@@ -92,6 +83,8 @@ footer {
   color: gray;
   font-family: 'Source Serif Pro', serif;
   padding-top: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
 @media (max-width: 768px) {
   .footer-wrapper img {

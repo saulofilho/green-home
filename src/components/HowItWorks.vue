@@ -1,6 +1,6 @@
 <template>
-  <div id="About" class="about">
-    <p class="title container">Harvesting data? What?!</p>
+  <div id="HowItWorks" class="howItWorks">
+    <p class="title container">Simply simple, my friend.</p>
     <div class="features-wrapper container">
       <div class="infos-wrapper">
         <p class="text">
@@ -10,7 +10,10 @@
         </p>
       </div>
     </div>
-    <div class="about-wrapper container">
+    <div class="howItWorks-wrapper container">
+      <div class="ilustration-wrapper">
+        <img src="../assets/teste.png" alt="" />
+      </div>
       <div class="infos-wrapper">
         <p class="text">
           O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
@@ -18,11 +21,44 @@
           seu projeto.
         </p>
       </div>
+    </div>
+    <div class="howItWorks-wrapper container">
       <div class="ilustration-wrapper">
         <img src="../assets/teste.png" alt="" />
       </div>
+      <div class="infos-wrapper">
+        <p class="text">
+          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
+          pensar em soluções para problemas na sua plantação, com dados reais do
+          seu projeto.
+        </p>
+      </div>
     </div>
-    <div class="about-wrapper container invert-column-mobile">
+    <div class="howItWorks-wrapper container">
+      <div class="ilustration-wrapper">
+        <img src="../assets/teste.png" alt="" />
+      </div>
+      <div class="infos-wrapper">
+        <p class="text">
+          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
+          pensar em soluções para problemas na sua plantação, com dados reais do
+          seu projeto.
+        </p>
+      </div>
+    </div>
+    <div class="howItWorks-wrapper container">
+      <div class="ilustration-wrapper">
+        <img src="../assets/teste.png" alt="" />
+      </div>
+      <div class="infos-wrapper">
+        <p class="text">
+          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
+          pensar em soluções para problemas na sua plantação, com dados reais do
+          seu projeto.
+        </p>
+      </div>
+    </div>
+    <div class="howItWorks-wrapper container">
       <div class="ilustration-wrapper">
         <img src="../assets/teste.png" alt="" />
       </div>
@@ -39,18 +75,18 @@
 
 <script>
 export default {
-  name: 'About',
+  name: 'HowItWorks',
 }
 </script>
 
 <style scoped>
-.about {
+.howItWorks {
   height: 100%;
   width: 100%;
   background: #a7ff83;
   padding: 2rem 0;
 }
-.about-wrapper {
+.howItWorks-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +118,7 @@ export default {
   padding-bottom: 30px;
 }
 @media (max-width: 768px) {
-  .about-wrapper {
+  .howItWorks-wrapper {
     flex-flow: column;
   }
   .invert-column-mobile {

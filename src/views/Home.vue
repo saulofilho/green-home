@@ -4,6 +4,7 @@
     <Hero />
     <About />
     <Features />
+    <HowItWorks />
     <Signature />
     <Footer />
   </div>
@@ -14,6 +15,7 @@ import Header from '../components/Header.vue'
 import Hero from '../components/Hero.vue'
 import About from '../components/About.vue'
 import Features from '../components/Features.vue'
+import HowItWorks from '../components/HowItWorks.vue'
 import Signature from '../components/Signature.vue'
 import Footer from '../components/Footer.vue'
 
@@ -24,8 +26,9 @@ export default {
     Hero,
     About,
     Features,
+    HowItWorks,
     Signature,
-    Footer
-  }
+    Footer,
+  },
 }
 </script>
