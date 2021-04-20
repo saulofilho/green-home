@@ -19,9 +19,7 @@
         </p>
         <p class="price-tag">$ 2,99</p>
       </div>
-      <div class="paypal-btn-wrapper">
-        <div id="paypal-button-container-P-89258290VG352331EMBXVI4A"></div>
-      </div>
+      <div class="paypal-btn-wrapper">button</div>
     </div>
   </div>
 </template>
