@@ -19,14 +19,32 @@
         </p>
         <p class="price-tag">$ 2,99</p>
       </div>
-      <div class="paypal-btn-wrapper">button</div>
+      <div class="cho-container">button</div>
     </div>
   </div>
 </template>
 
+<script src="https://sdk.mercadopago.com/js/v2"></script>
 <script>
 export default {
   name: 'Signature',
+  mounted() {
+    // Adicione as credenciais do SDK
+    const mp = new MercadoPago('TEST-0a1f3a2a-75d5-4a80-a788-58c7fe14e40a', {
+      locale: 'pt-BR',
+    })
+
+    // Inicialize o checkout
+    mp.checkout({
+      preference: {
+        id: '151289502-01361f46-0699-49e5-a6a5-39ccf93630f3',
+      },
+      render: {
+        container: '.cho-container', // Indica onde o botão de pagamento será exibido
+        label: 'Pagar', // Muda o texto do botão de pagamento (opcional)
+      },
+    })
+  },
 }
 </script>
 
