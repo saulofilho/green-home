@@ -3,10 +3,11 @@
     <p class="title container">Digital Nature</p>
     <div class="features-wrapper container">
       <div class="infos-wrapper">
-        <p class="text">
-          Com o Botanic Daily Data você consegue controlar individualmente cada
-          plantação, tanto indoor quanto outdoor, de um jeito simples e
-          tecnológico.
+        <p class="text align-center">
+          Lorem Ipsum é simplesmente uma simulação de texto da indústria
+          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
+          quando um impressor desconhecido pegou uma bandeja de tipos e os
+          embaralhou para fazer um livro de modelos de tipos.
         </p>
       </div>
     </div>
@@ -109,6 +110,10 @@ export default {
 .text {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
+}
+.text.align-center {
+  text-align: center;
+  padding-bottom: 20px;
 }
 .infos-wrapper {
   width: 100%;

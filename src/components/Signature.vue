@@ -3,29 +3,26 @@
     <p class="title container">We have to pay the server.</p>
     <div class="features-wrapper container">
       <div class="infos-wrapper">
-        <p class="text">
-          Com o Botanic Daily Data você consegue controlar individualmente cada
-          plantação, tanto indoor quanto outdoor, de um jeito simples e
-          tecnológico.
+        <p class="text align-center">
+          Lorem Ipsum é simplesmente uma simulação de texto da indústria
+          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
+          quando um impressor desconhecido pegou uma bandeja de tipos e os
+          embaralhou para fazer um livro de modelos de tipos.
         </p>
       </div>
     </div>
     <div class="signature-wrapper container">
       <div class="price-wrapper">
-        <p class="price-about">
-          Com o Botanic Daily Data você consegue controlar individualmente cada
-          plantação, tanto indoor quanto outdoor, de um jeito simples e
-          tecnológico.
-        </p>
-        <p class="price-tag">$ 2,99</p>
+        <p class="price-tag">R$ 9,99</p>
+        <p class="price-about">Something about US$ 1.89.</p>
       </div>
-      <div class="cho-container">
+      <div class="btn-sign-wrapper">
         <a
           mp-mode="dftl"
           href="https://www.mercadopago.com/mlb/debits/new?preapproval_plan_id=2c93808478efe20f0178f05385c50035"
           name="MP-payButton"
           class="blue-ar-l-rn-none"
-          >Suscribirme</a
+          >Subscribe.</a
         >
       </div>
     </div>
@@ -49,9 +46,27 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row;
+  flex-flow: column;
   width: 100%;
-  height: 100%;
+  padding-top: 10%;
+}
+.btn-sign-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn-sign-wrapper a {
+  font-family: 'Rubik', sans-serif;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgb(0, 102, 170);
+  border-radius: 5px;
+  color: #fff;
+}
+.btn-sign-wrapper a:hover {
+  font-family: 'Rubik', sans-serif;
+  background: #a7ff83;
+  color: #000;
 }
 .price-wrapper {
   display: flex;
@@ -59,7 +74,6 @@ export default {
   align-items: center;
   flex-flow: column;
   width: 100%;
-  height: 100%;
 }
 .price-tag {
   font-family: 'Source Serif Pro', serif;
@@ -81,6 +95,10 @@ export default {
 .text {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
+}
+.text.align-center {
+  text-align: center;
+  padding-bottom: 20px;
 }
 .infos-wrapper,
 .ilustration-wrapper {

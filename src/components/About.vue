@@ -3,10 +3,11 @@
     <p class="title container">Harvesting data? What?!</p>
     <div class="features-wrapper container">
       <div class="infos-wrapper">
-        <p class="text">
-          Com o Botanic Daily Data você consegue controlar individualmente cada
-          plantação, tanto indoor quanto outdoor, de um jeito simples e
-          tecnológico.
+        <p class="text align-center">
+          Lorem Ipsum é simplesmente uma simulação de texto da indústria
+          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
+          quando um impressor desconhecido pegou uma bandeja de tipos e os
+          embaralhou para fazer um livro de modelos de tipos.
         </p>
       </div>
     </div>
@@ -19,12 +20,12 @@
         </p>
       </div>
       <div class="ilustration-wrapper">
-        <img src="../assets/teste.png" alt="" />
+        <img src="../assets/bdd1.gif" alt="" />
       </div>
     </div>
     <div class="about-wrapper container invert-column-mobile">
       <div class="ilustration-wrapper">
-        <img src="../assets/teste.png" alt="" />
+        <img src="../assets/bdd1.gif" alt="" />
       </div>
       <div class="infos-wrapper">
         <p class="text">
@@ -60,6 +61,10 @@ export default {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
 }
+.text.align-center {
+  text-align: center;
+  padding-bottom: 20px;
+}
 .infos-wrapper,
 .ilustration-wrapper {
   width: 100%;
@@ -70,7 +75,7 @@ export default {
 }
 .ilustration-wrapper img {
   max-width: 100%;
-  width: 300px;
+  /* width: 300px; */
 }
 .title {
   font-family: 'Source Serif Pro', serif;

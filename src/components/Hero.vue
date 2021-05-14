@@ -8,11 +8,9 @@
       muted
     ></video>
     <div class="hero-wrapper container">
-      <h2>Botanic Daily Data.</h2>
       <h1>
-        Acompanhe o crescimento
-        <br />
-        da sua plantação com dados reais.
+        Create your own database to make better decisions about your harvest by
+        tracking and analysing data input.
       </h1>
     </div>
   </div>
@@ -50,11 +48,14 @@ video {
 h1 {
   font-family: 'Source Serif Pro', serif;
   font-size: 36px;
+  line-height: 34px;
   font-weight: bolder;
+  text-align: center;
 }
-h2 {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 18px;
-  font-weight: lighter;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    line-height: 22px;
+  }
 }
 </style>

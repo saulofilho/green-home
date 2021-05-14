@@ -10,6 +10,8 @@
       <div class="footer-col">
         <a href="#About">About</a>
         <a href="#Features">Features</a>
+      </div>
+      <div class="footer-col">
         <a href="#HowItWorks">How it works</a>
         <a href="#Signature">Price</a>
       </div>
@@ -101,6 +103,9 @@ footer {
   }
   .footer-line {
     width: 80%;
+  }
+  .footer-copy {
+    justify-content: center;
   }
 }
 </style>
