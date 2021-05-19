@@ -10,10 +10,15 @@
       <div class="footer-col">
         <a href="#About">About</a>
         <a href="#Features">Features</a>
-      </div>
-      <div class="footer-col">
         <a href="#HowItWorks">How it works</a>
         <a href="#Signature">Price</a>
+      </div>
+      <div class="footer-col">
+        <a href="https://app.botanicdailydata.com/">Login</a>
+        <a
+          href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c93808478efe20f0178f05385c50035"
+          >Sign up</a
+        >
       </div>
       <div class="footer-col">
         <a href="http://google.com" target="_blank" rel="noopener noreferrer"

@@ -4,10 +4,12 @@
     <div class="features-wrapper container">
       <div class="infos-wrapper">
         <p class="text align-center">
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria
-          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-          quando um impressor desconhecido pegou uma bandeja de tipos e os
-          embaralhou para fazer um livro de modelos de tipos.
+          Really: it's very simple to get acquainted with the app. A few clicks
+          and boom: you have a dataset for your harvest. One. Two. Four billion.
+          How many you need.
+          <br />
+          <br />
+          Looking to steps:
         </p>
       </div>
     </div>
@@ -17,9 +19,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+          This is the dashboard of your projects. You could check all your
+          harvests and graphs comparing the data from all your harvests.
         </p>
       </div>
     </div>
@@ -29,9 +30,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+          Click in the bottom to create a new harvest. Fill the inputs to save
+          and start the dataset.
         </p>
       </div>
     </div>
@@ -41,9 +41,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+          When your put your data, day by day, you will have a dataset to a
+          specific harvest.
         </p>
       </div>
     </div>
@@ -53,9 +52,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+          Each day has your own dataset. If you click, we can see all the
+          specific data from that day.
         </p>
       </div>
     </div>
@@ -65,9 +63,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+          In the top of your harvest page you can see a full calendar to manage
+          and remider tasks.
         </p>
       </div>
     </div>
@@ -77,9 +74,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+          Insert how many days do you need to harvest. At the bottom of page you
+          could see the graphs and a comparative table.
         </p>
       </div>
     </div>

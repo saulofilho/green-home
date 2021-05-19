@@ -4,21 +4,61 @@
     <div class="features-wrapper container">
       <div class="infos-wrapper">
         <p class="text align-center">
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria
-          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-          quando um impressor desconhecido pegou uma bandeja de tipos e os
-          embaralhou para fazer um livro de modelos de tipos.
+          Everything that you need will be with you. With all these features,
+          you can improve your havest everyday aim nice plants or even comples
+          ecosystem, like mushroom's family.
         </p>
       </div>
     </div>
     <div class="carousel-wrapper">
       <VueSlickCarousel v-bind="settings">
         <div class="carousel-box">
-          ansjdasdo a pkafcmwopa opcwakwopac poap wa
+          <strong>Any device.</strong>
+          Input your data in any device: watch, mobile, tablet, desktop, car...
         </div>
-        <div class="carousel-box">fjaiwf ia wf wpa kfaop ofak opaopw fpoaw</div>
-        <div class="carousel-box">fioawfoa pafooa opawof kawop kopaw</div>
-        <div class="carousel-box">kwdakjwd apkw doap wkdpao wpak</div>
+        <div class="carousel-box">
+          <strong>It's a simple app.</strong>
+          Simple to use. Simple to fill the data.
+        </div>
+        <div class="carousel-box">
+          <strong>No more plants killer.</strong>
+          With the data, you can predict what happen to your harvest just
+          looking the past data.
+        </div>
+        <div class="carousel-box">
+          <strong>No more plants killer.</strong>
+          With the data, you can predict what happen to your harvest just
+          looking the past data.
+        </div>
+        <div class="carousel-box">
+          <strong>Look the data.</strong>
+          Compare the data from another harvest that you have to see what
+          happened, improving your skills and your harvests.
+        </div>
+        <div class="carousel-box">
+          <strong>Table tha matters.</strong>
+          Spreadsheet is nice, but could be confuse and take a lot of errors.
+          The Botanic Daily Data helps you to organize and displayed all your
+          dataset.
+        </div>
+        <div class="carousel-box">
+          <strong>I S2 Spreadsheet!</strong>
+          No problem. You could save your data in Excel or CVS.
+        </div>
+        <div class="carousel-box">
+          <strong>Only you can provide the data.</strong>
+          Anyone have access to your data.
+        </div>
+        <div class="carousel-box">
+          <strong>Security always is important.</strong>
+          We don't take your cookies. Your data doesn't matter to us.
+        </div>
+        <div class="carousel-box">
+          <strong>Made by friends.</strong>
+          We are humans. So, sometimes we have some bad days and release some
+          bugs. If you see something like that, drop us a line telling it
+          happened: hi@buenavistala.com
+        </div>
       </VueSlickCarousel>
     </div>
   </div>
@@ -91,6 +131,7 @@ export default {
   width: 100%;
   height: 100%;
   border: 2px solid #071a52;
+  font-family: 'Source Serif Pro', serif;
 }
 .features-wrapper {
   display: flex;

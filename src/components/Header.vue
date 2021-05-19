@@ -1,10 +1,12 @@
 <template>
   <header>
     <div class="header-wrapper container">
-      <img
-        src="../assets/bdd-logo-new-w.png"
-        alt="this is the logo of company, guys"
-      />
+      <a href="https://app.botanicdailydata.com/">
+        <img
+          src="../assets/bdd-logo-new-w.png"
+          alt="this is the logo of company, guys"
+        />
+      </a>
       <div class="menu-wrapper">
         <div class="links-wrapper">
           <a href="#About">About</a>

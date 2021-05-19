@@ -4,19 +4,17 @@
     <div class="features-wrapper container">
       <div class="infos-wrapper">
         <p class="text align-center">
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria
-          tipográfica e de impressos, e vem sendo utilizado desde o século XVI,
-          quando um impressor desconhecido pegou uma bandeja de tipos e os
-          embaralhou para fazer um livro de modelos de tipos.
+          The Botanic Daily Data is a simple and frindely database for your
+          harvests. You need just fill every day the data input to store and
+          create a database.
         </p>
       </div>
     </div>
     <div class="about-wrapper container">
       <div class="infos-wrapper">
-        <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+        <p class="text align-right">
+          You can track all the life of your plant, since the seeding to
+          harvesting.
         </p>
       </div>
       <div class="ilustration-wrapper">
@@ -29,9 +27,8 @@
       </div>
       <div class="infos-wrapper">
         <p class="text">
-          O Botanic Daily Data é um aplicativo que ajuda você a precaver erros e
-          pensar em soluções para problemas na sua plantação, com dados reais do
-          seu projeto.
+          Collect and store the data in a simple database with graphs and
+          analystics to see how it goes the harvesting.
         </p>
       </div>
     </div>
@@ -65,6 +62,10 @@ export default {
   text-align: center;
   padding-bottom: 20px;
 }
+.text.align-right {
+  text-align: right;
+  padding-bottom: 20px;
+}
 .infos-wrapper,
 .ilustration-wrapper {
   width: 100%;
@@ -75,6 +76,7 @@ export default {
 }
 .ilustration-wrapper img {
   max-width: 100%;
+  padding: 20px;
   /* width: 300px; */
 }
 .title {
@@ -92,6 +94,11 @@ export default {
   }
   .invert-column-mobile {
     flex-flow: column-reverse;
+  }
+  .ilustration-wrapper img {
+    max-width: 100%;
+    padding: 10px 0 30px;
+    /* width: 300px; */
   }
 }
 </style>
