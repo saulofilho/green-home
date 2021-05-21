@@ -10,12 +10,20 @@
       </div>
     </div>
     <div class="signature-wrapper container">
+      <p class="price-about">
+        <code>React, Node, Docker, Postgres, Netlify, Nginx, Ubuntu</code>
+      </p>
+    </div>
+    <div class="signature-wrapper container">
       <div class="price-wrapper">
         <p class="price-tag">R$ 9,99</p>
         <p class="price-about">
           Something about US$ 1.89.
           <br />
           Data from May, 2021.
+          <br />
+          <br />
+          We are working to accept cryptocurrency.
         </p>
       </div>
       <div class="btn-sign-wrapper">
@@ -27,17 +35,6 @@
           >Subscribe.</a
         >
       </div>
-    </div>
-    <div class="signature-wrapper container">
-      <p class="price-about">
-        Nerd stuff:
-        <br />
-        Front end: React; Back end: Node, Docker, Postgres; CDN and PaaS:
-        Netlify; Web Server and Proxy: Nginx; Ubuntu machine.
-        <br />
-        <br />
-        We are working to accept cryptocurrency.
-      </p>
     </div>
   </div>
 </template>
