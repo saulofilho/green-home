@@ -1,6 +1,6 @@
 <template>
   <div id="Soon" class="soon">
-    <video src="../assets/soon.mp4" autoplay loop muted></video>
+    <video src="../assets/soon.mp4" autoplay loop playsinline muted></video>
     <p>The next step: the device. Soon.</p>
   </div>
 </template>
@@ -19,6 +19,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #071a52;
+  position: relative;
+  z-index: -9;
 }
 .soon p {
   position: absolute;

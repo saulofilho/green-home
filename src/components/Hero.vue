@@ -27,6 +27,9 @@ export default {
   width: 100%;
   height: 100vh;
   overflow: auto;
+  background: #071a52;
+  position: relative;
+  z-index: -9;
 }
 video {
   object-fit: cover;
@@ -35,7 +38,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -9;
+  z-index: -8;
 }
 .hero-wrapper {
   height: 100%;
