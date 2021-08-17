@@ -18,12 +18,12 @@
         </p>
       </div>
       <div class="ilustration-wrapper">
-        <img src="../assets/bdd1.gif" alt="" />
+        <img src="../assets/about1.png" alt="illustration man" />
       </div>
     </div>
     <div class="about-wrapper container invert-column-mobile">
       <div class="ilustration-wrapper">
-        <img src="../assets/bdd1.gif" alt="" />
+        <img src="../assets/about2.png" alt="illustration woman" />
       </div>
       <div class="infos-wrapper">
         <p class="text">
